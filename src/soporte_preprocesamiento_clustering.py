@@ -386,7 +386,7 @@ class Clustering:
         dataframe_original["clusters_kmeans"] = labels.astype(str)
         return dataframe_original, labels
     
-    def visualizar_dendrogramas(self, lista_metodos=["average", "complete", "ward"]):
+    def visualizar_dendrogramas(self, lista_metodos=["average", "complete", "ward", "single"]):
         """
         Genera y visualiza dendrogramas para el conjunto de datos utilizando diferentes métodos de distancias.
 
